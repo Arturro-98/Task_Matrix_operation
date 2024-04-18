@@ -31,6 +31,7 @@ TEST(MatrixOperation, OperationWithSameSizeArguments_then_ResultIsTheSumOfArgume
 
 	MatrixOperation_t underTestInst;
 	MatrixOperation_t::MatrixContainer_t resultMatrixes;
+	underTestInst.DestinationMatrixes(resultMatrixes);
 
 	//Action
 	underTestInst(leftMatrixes, rightMatrixes);
@@ -84,6 +85,7 @@ TEST(MatrixOperation, OperationWithRightLessSize_then_ResultIsTheSumOfArgumentsW
 
 	MatrixOperation_t underTestInst;
 	MatrixOperation_t::MatrixContainer_t resultMatrixes;
+	underTestInst.DestinationMatrixes(resultMatrixes);
 
 	//Action
 	underTestInst(leftMatrixes, rightMatrixes);
@@ -137,6 +139,7 @@ TEST(MatrixOperation, OperationWithLeftLessSize_then_ResultIsTheSumOfArgumentsWi
 
 	MatrixOperation_t underTestInst;
 	MatrixOperation_t::MatrixContainer_t resultMatrixes;
+	underTestInst.DestinationMatrixes(resultMatrixes);
 
 	//Action
 	underTestInst(leftMatrixes, rightMatrixes);
@@ -153,5 +156,4 @@ TEST(MatrixOperation, OperationWithLeftLessSize_then_ResultIsTheSumOfArgumentsWi
 		}
 	}
 }
-
 }
