@@ -1,0 +1,67 @@
+This file imitates a task tracker ticket like Jira ticket for this task.
+You can get the description and other informations about the task.
+
+You can add any information into comment(s) if you think that it would be useful for us. In this case please follow the comment syntax (you can copy-paste and fill it):
+---- Comment from: <your name/nickname> - <timestamp> ----
+<your comment>
+----
+
+The ticket:
+
+---- Task description created by: Balázs Szabó - 15:32 03/05/2022 ----
+
+We need a matrix operation class which can add matrixes and store the result in a given array which is given by the operation caller.
+I wrote some tests which inorm you about the exact requirements, you can find them in the tests/unit/source/RequirementBaseTest.cpp
+And there is a another class which define the matrix behaviour, you can find it in the MatrixMethod_lib/source/Matrix.hpp
+
+If it is possible, please don't modify these files beacuse these define the dependencies and requirements for the MatrixMethod class.
+
+----
+
+---- Comment from: Csaba David - 16:51 03/05/2022 ----
+
+Hi @Balázs Szabó,
+
+I checked the ticket and the source and I didn't found any build description (I mean: CMakeLists.txt)
+Maybe you forgot them at commit/push.
+----
+
+
+Hi Csaba,
+
+I really forgot about them, but I am unable to find all of them at all.
+So you have to make these again, sorry.
+
+---- Comment from: Administrator - 17:15 03/05/2022 ----
+@Balázs Szabó, I specifically ask you to follow the comment syntax policy, you can find it above.
+----
+
+
+---- Comment from: Csaba David - 10:15 04/05/2022 ----
+
+Hi @Balázs Szabó,
+Ok, I'll create the CMakeLists again.
+I think you compiled the tests with dummy implementation, and we woldn't meet with compilation error from RequirementBaseTest.cpp.
+Could you confirm this please?
+
+----
+
+Hi Csaba,
+Yes, you sholdn't encounter a compilation error, but since it wasn't implemented, so I couldn't check te tester, so probably there are bugs in the tester code.
+I may have missed something. Make sense to fix it so that the reqirements don't change. You can conclude the exact requirements from the tester code.
+And if your implemetation require more test case(s) you also can expand the file even though I wrote don't touch the RequirementBaseTest.cpp.
+
+---- Comment from: Administrator - 11:02 04/05/2022 ----
+@Balázs Szabó, I specifically ask you to follow the comment syntax policy, you can find it above.
+----
+
+---- Comment from: Csaba David - 10:11 05/05/2022 ----
+
+I started to work on this task at yesterdey afternoon, unfortunately I am unable to continoue, because I have had to go on sick leave today.
+I commited and pushed the last state of my work (It contains some bugs yet). I am very sick so I may unable to read any e-mail and answer your call in the next days, sorry.
+----
+
+
+---- Comment from: @Goraus Artur - 20:00 12/05/2024 ----
+I'm trying to understand the code as well as run it. Added/created MatrixOperation.cpp file and implemented TMatrixContainer struct in MatrixContainer.hpp
+----

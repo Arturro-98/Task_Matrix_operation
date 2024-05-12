@@ -11,7 +11,7 @@ template<typename t_ValueType, size_t t_CollumnCount, size_t t_RowCount>
 struct Matrix
 {
 	static constexpr size_t CollumnCount = t_CollumnCount;
-	static constexpr size_t RowCount = t_CollumnCount;
+	static constexpr size_t RowCount = t_CollumnCount; // should be t_RowCount
 	using value_type = t_ValueType;
 
 	Matrix() = delete;
