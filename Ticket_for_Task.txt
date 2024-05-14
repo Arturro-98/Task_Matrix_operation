@@ -65,3 +65,7 @@ I commited and pushed the last state of my work (It contains some bugs yet). I a
 ---- Comment from: @Goraus Artur - 20:00 12/05/2024 ----
 I'm trying to understand the code as well as run it. Added/created MatrixOperation.cpp file and implemented TMatrixContainer struct in MatrixContainer.hpp
 ----
+
+---- Comment from: @Goraus Artur - 21:50 14/05/2024 ----
+After many tries and usage of chatGPT I was able to fix dozens of compilation errors in VisualStudio Code terminal
+----
