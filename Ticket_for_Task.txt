@@ -60,3 +60,12 @@ And if your implemetation require more test case(s) you also can expand the file
 I started to work on this task at yesterdey afternoon, unfortunately I am unable to continoue, because I have had to go on sick leave today.
 I commited and pushed the last state of my work (It contains some bugs yet). I am very sick so I may unable to read any e-mail and answer your call in the next days, sorry.
 ----
+
+
+---- Comment from: @Goraus Artur - 20:00 12/05/2024 ----
+I'm trying to understand the code as well as run it. Added/created MatrixOperation.cpp file and implemented TMatrixContainer struct in MatrixContainer.hpp
+----
+
+---- Comment from: @Goraus Artur - 21:50 14/05/2024 ----
+After many tries and usage of chatGPT I was able to fix dozens of compilation errors in VisualStudio Code terminal
+----
