@@ -3,6 +3,7 @@
 
 #include <gtest/gtest.h>
 #include <MatrixOperation.hpp>
+#include "MyMatrix.hpp"
 
 namespace MatrixOperation_RequirementBase_UT
 {
